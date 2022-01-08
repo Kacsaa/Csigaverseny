@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="Csigaverseny" Height="750" Width="1025">
     <Grid>
-        
+        <Rectangle Fill="LightGreen" VerticalAlignment="Top" HorizontalAlignment="Left" Height="550" Width="900" Margin="20,50,0,0"/>
     </Grid>
 </Window>
