@@ -5,17 +5,54 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Csigaverseny"
         mc:Ignorable="d"
-        Title="Csigaverseny" Height="750" Width="1025">
+        Title="Csigaverseny" Height="800" Width="1025">
     <Grid>
         <Rectangle Fill="LightGreen" VerticalAlignment="Top" HorizontalAlignment="Left" Height="550" Width="900" Margin="20,50,0,0"/>
-        <Rectangle Name="csut1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="183" Width="900" Margin="20,50,0,0"></Rectangle>
+        <Rectangle Name="csut1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="179" Width="900" Margin="20,50,0,0"></Rectangle>
         <Rectangle Name="csut2" VerticalAlignment="Top" HorizontalAlignment="Left" Height="178" Width="900" Margin="20,233,0,0"></Rectangle>
-        <Rectangle Name="csut3" VerticalAlignment="Top" HorizontalAlignment="Left" Height="188" Width="900" Margin="20,412,0,0"></Rectangle>
+        <Rectangle Name="csut3" VerticalAlignment="Top" HorizontalAlignment="Left" Height="179" Width="900" Margin="20,418,0,0"></Rectangle>
+        <Label Content="Rajt" FontSize="120" Foreground="White" VerticalAlignment="Top" HorizontalAlignment="Left" Height="200" Width="300" Margin="56,260,0,0" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="Cél" FontSize="120" Foreground="White" VerticalAlignment="Top" HorizontalAlignment="Left" Height="200" Width="300" Margin="710,275,0,0" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
         <Rectangle Fill="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Height="2" Width="900" Margin="20,228,0,0"></Rectangle>
         <Rectangle Fill="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Height="2" Width="900" Margin="20,411,0,0"></Rectangle>
-        <Rectangle Fill="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Height="2" Width="900" Margin="30,600,0,0"></Rectangle>
-        <Rectangle Fill="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Height="550" Width="15" Margin="200,50,0,0"></Rectangle>
-        <Rectangle Fill="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Height="550" Width="15" Margin="915,50,0,0"></Rectangle>
-
+        <Rectangle Fill="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Height="2" Width="900" Margin="20,600,0,0"></Rectangle>
+        <Rectangle Fill="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Height="552" Width="15" Margin="200,50,0,0"></Rectangle>
+        <Rectangle Fill="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Height="552" Width="15" Margin="920,50,0,0"></Rectangle>
+        <Button Content="Start" Name="start" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="160" Margin="20,10,0,0"></Button>
+        <Button Content="Új futam" Name="ujfutam" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="160" Margin="200,10,0,0"></Button>
+        <Button Content="Új bajnokság" Name="ujbajnoksag" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="160" Margin="380,10,0,0"></Button>
+        <Label Content="A bajnokság állása:" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Height="50" Width="260" Margin="20,607,0,0"></Label>
+        <Label Content="Hely" Name="hely" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="200,600,0,0"></Label>
+        <Label Content="Név" Name="nev" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="300,600,0,0"></Label>
+        <Label Content="1." Name="helyezes1" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="400,600,0,0"></Label>
+        <Label Content="2." Name="helyezes2" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="500,600,0,0"></Label>
+        <Label Content="3." Name="helyezes3" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="600,600,0,0"></Label>
+        <Label Content="Pont" Name="Pont" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="700,600,0,0"></Label>
+        <Label Content="1" Name="hely1"  FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="200,650,0,0"></Label>
+        <Label Content="2" Name="hely2"  FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="200,700,0,0"></Label>
+        <Label Content="3" Name="hely3" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="200,750,0,0"></Label>
+        <Label Content="" Name="nev1"  FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="300,650,0,0"></Label>
+        <Label Content="" Name="nev2" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="300,700,0,0"></Label>
+        <Label Content="" Name="nev3" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="300,750,0,0"></Label>
+        <Label Content="" Name="elsohelyek" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="400,650,0,0"></Label>
+        
     </Grid>
 </Window>
