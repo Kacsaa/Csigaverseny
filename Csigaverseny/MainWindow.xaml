@@ -36,8 +36,8 @@
         <Rectangle Fill="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Height="2" Width="900" Margin="20,600,0,0"></Rectangle>
         <Rectangle Fill="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Height="552" Width="15" Margin="200,50,0,0"></Rectangle>
         <Rectangle Fill="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Height="552" Width="15" Margin="920,50,0,0"></Rectangle>
-        <Button Content="Start" Name="start" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="160" Margin="20,10,0,0"></Button>
-        <Button Content="Új futam" Name="ujfutam" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="160" Margin="200,10,0,0"></Button>
+        <Button Content="Start" Name="start" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="160" Margin="20,10,0,0" Click="Mozgascs"></Button>
+        <Button Content="Új futam" Name="ujfutam" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="160" Margin="200,10,0,0" Click="Ujfutam"></Button>
         <Button Content="Új bajnokság" Name="ujbajnoksag" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="160" Margin="380,10,0,0"></Button>
         <Label Content="A bajnokság állása:" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Height="50" Width="260" Margin="20,607,0,0"></Label>
         <Label Content="Hely" Name="hely" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="200,600,0,0"></Label>
@@ -64,9 +64,9 @@
         <Label Content="" Name="pontok1" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="700,650,0,0"></Label>
         <Label Content="" Name="pontok2" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="700,700,0,0"></Label>
         <Label Content="" Name="pontok3" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="700,750,0,0"></Label>
-        <Image Name="csiga1" Source="/csiga1.png" VerticalAlignment="Top" HorizontalAlignment="Left" Height="110" Width="141" Margin="21,86,0,0"></Image>
+        <Image Name="csiga1" Source="/csiga1.png" VerticalAlignment="Top" HorizontalAlignment="Left" Height="110" Width="141" Margin="21,78,0,0"></Image>
         <Image Name="csiga2" Source="/csiga2.png" VerticalAlignment="Top" HorizontalAlignment="Left" Height="110" Width="180" Margin="21,267,0,0"></Image>
         <Image Name="csiga3" Source="/csiga3.png" VerticalAlignment="Top" HorizontalAlignment="Left"  Height="110" Width="180" Margin="21,452,0,0" ></Image>
-        
+
     </Grid>
 </Window>
