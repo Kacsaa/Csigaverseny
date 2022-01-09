@@ -40,32 +40,33 @@
         <Button Content="Új futam" Name="ujfutam" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="160" Margin="200,10,0,0"></Button>
         <Button Content="Új bajnokság" Name="ujbajnoksag" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="160" Margin="380,10,0,0"></Button>
         <Label Content="A bajnokság állása:" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Height="50" Width="260" Margin="20,607,0,0"></Label>
-        <Label Content="Hely" Name="hely" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="200,600,0,0"></Label>
-        <Label Content="Név" Name="nev" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="300,600,0,0"></Label>
-        <Label Content="1." Name="helyezes1" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="400,600,0,0"></Label>
-        <Label Content="2." Name="helyezes2" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="500,600,0,0"></Label>
-        <Label Content="3." Name="helyezes3" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="600,600,0,0"></Label>
-        <Label Content="Pont" Name="Pont" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="700,600,0,0"></Label>
-        <Label Content="1" Name="hely1"  FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="200,650,0,0"></Label>
-        <Label Content="2" Name="hely2"  FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="200,700,0,0"></Label>
-        <Label Content="3" Name="hely3" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="200,750,0,0"></Label>
-        <Label Content="" Name="nev1"  FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="300,650,0,0"></Label>
-        <Label Content="" Name="nev2" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="300,700,0,0"></Label>
-        <Label Content="" Name="nev3" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="300,750,0,0"></Label>
-        <Label Content="" Name="elsohelyek1" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="400,650,0,0"></Label>
-        <Label Content="" Name="elsohelyek2" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="400,700,0,0"></Label>
-        <Label Content="" Name="elsohelyek3" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="400,750,0,0"></Label>
-        <Label Content="" Name="masodikhelyek1" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="500,650,0,0"></Label>
-        <Label Content="" Name="masodikhelyek2" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="500,700,0,0"></Label>
-        <Label Content="" Name="masodikhelyek3" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="500,750,0,0"></Label>
-        <Label Content="" Name="harmadikhelyek1" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="600,650,0,0"></Label>
-        <Label Content="" Name="harmadikhelyek2" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="600,700,0,0"></Label>
-        <Label Content="" Name="harmadikhelyek3" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="600,750,0,0"></Label>
-        <Label Content="" Name="pontok1" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="700,650,0,0"></Label>
-        <Label Content="" Name="pontok2" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="700,700,0,0"></Label>
-        <Label Content="" Name="pontok3" FontSize="20" Opacity="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="700,750,0,0"></Label>
+        <Label Content="Hely" Name="hely" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="200,600,0,0"></Label>
+        <Label Content="Név" Name="nev" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="300,600,0,0"></Label>
+        <Label Content="1." Name="helyezes1" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="400,600,0,0"></Label>
+        <Label Content="2." Name="helyezes2" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="500,600,0,0"></Label>
+        <Label Content="3." Name="helyezes3" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="600,600,0,0"></Label>
+        <Label Content="Pont" Name="Pont" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="700,600,0,0"></Label>
+        <Label Content="1" Name="hely1"  FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="200,650,0,0"></Label>
+        <Label Content="2" Name="hely2"  FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="200,700,0,0"></Label>
+        <Label Content="3" Name="hely3" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="200,750,0,0"></Label>
+        <Label Content="" Name="nev1"  FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="300,650,0,0"></Label>
+        <Label Content="" Name="nev2" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="300,700,0,0"></Label>
+        <Label Content="" Name="nev3" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="300,750,0,0"></Label>
+        <Label Content="" Name="elsohelyek1" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="400,650,0,0"></Label>
+        <Label Content="" Name="elsohelyek2" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="400,700,0,0"></Label>
+        <Label Content="" Name="elsohelyek3" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="400,750,0,0"></Label>
+        <Label Content="" Name="masodikhelyek1" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="500,650,0,0"></Label>
+        <Label Content="" Name="masodikhelyek2" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="500,700,0,0"></Label>
+        <Label Content="" Name="masodikhelyek3" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="500,750,0,0"></Label>
+        <Label Content="" Name="harmadikhelyek1" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="600,650,0,0"></Label>
+        <Label Content="" Name="harmadikhelyek2" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="600,700,0,0"></Label>
+        <Label Content="" Name="harmadikhelyek3" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="600,750,0,0"></Label>
+        <Label Content="" Name="pontok1" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="700,650,0,0"></Label>
+        <Label Content="" Name="pontok2" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="700,700,0,0"></Label>
+        <Label Content="" Name="pontok3" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="700,750,0,0"></Label>
         <Image Name="csiga1" Source="/csiga1.png" VerticalAlignment="Top" HorizontalAlignment="Left" Height="110" Width="141" Margin="21,86,0,0"></Image>
         <Image Name="csiga2" Source="/csiga2.png" VerticalAlignment="Top" HorizontalAlignment="Left" Height="110" Width="180" Margin="21,267,0,0"></Image>
         <Image Name="csiga3" Source="/csiga3.png" VerticalAlignment="Top" HorizontalAlignment="Left"  Height="110" Width="180" Margin="21,452,0,0" ></Image>
+        
     </Grid>
 </Window>
