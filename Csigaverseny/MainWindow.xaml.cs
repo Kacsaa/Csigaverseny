@@ -74,6 +74,7 @@ namespace Csigaverseny
             {
                 csut1.Opacity = 1;
                 csut1.Fill = Brushes.Yellow;
+                pontszam1 += 3;
                 if (csiga2.Margin == new Thickness(722,267,0,0) && csiga3.Margin != new Thickness(810,452,0,0))
                 {
                     csut2.Opacity = 1;
@@ -94,6 +95,7 @@ namespace Csigaverseny
             {
                 csut2.Opacity = 1;
                 csut2.Fill = Brushes.Yellow;
+                pontszam2 += 3;
                 if (csiga1.Margin == new Thickness(779,78,0,0) && csiga3.Margin != new Thickness(810,452,0,0))
                 {
                     csut1.Opacity = 1;
@@ -114,6 +116,7 @@ namespace Csigaverseny
             {
                 csut3.Opacity = 1;
                 csut3.Fill = Brushes.Yellow;
+                pontszam3 += 3;
                 if (csiga1.Margin == new Thickness(779,78,0,0) && csiga2.Margin != new Thickness(779,267,0,0))
                 {
                     csut1.Opacity = 1;
@@ -133,6 +136,9 @@ namespace Csigaverseny
             if (csiga1.Margin == new Thickness(779,78,0,0) && csiga2.Margin == new Thickness(779,267,0,0) && csiga3.Margin == new Thickness(810,452,0,0))
             {
                 idozites.Stop();
+                pontok1.Content = pontszam1;
+                pontok2.Content = pontszam2;
+                pontok3.Content = pontszam3;
                 hely.Opacity = 1;
                 nev.Opacity = 1;
                 pont.Opacity = 1;
@@ -224,6 +230,7 @@ namespace Csigaverseny
             csut1.Opacity = 0;
             csut2.Opacity = 0;
             csut3.Opacity = 0;
+            
             start.IsEnabled = true;
             ujfutam.IsEnabled = false;
             ujbajnoksag.IsEnabled = true;
