@@ -26,6 +26,9 @@ namespace Csigaverseny
         int csigaszam1 = 21;
         int csigaszam2 = 21;
         int csigaszam3 = 21;
+        int pontszam1 = 0;
+        int pontszam2 = 0;
+        int pontszam3 = 0;
 
         public MainWindow()
         {
@@ -130,6 +133,27 @@ namespace Csigaverseny
             if (csiga1.Margin == new Thickness(779,78,0,0) && csiga2.Margin == new Thickness(779,267,0,0) && csiga3.Margin == new Thickness(810,452,0,0))
             {
                 idozites.Stop();
+                hely.Opacity = 1;
+                nev.Opacity = 1;
+                pont.Opacity = 1;
+                pontok1.Opacity = 1;
+                pontok2.Opacity = 1;
+                pontok3.Opacity = 1;
+                helyezes1.Opacity = 1;
+                helyezes2.Opacity = 1;
+                helyezes3.Opacity = 1;
+                hely1.Opacity = 1;
+                hely2.Opacity = 1;
+                hely3.Opacity = 1;
+                elsohelyek1.Opacity = 1;
+                elsohelyek2.Opacity = 1;
+                elsohelyek3.Opacity = 1;
+                masodikhelyek1.Opacity = 1;
+                masodikhelyek2.Opacity = 1;
+                masodikhelyek3.Opacity = 1;
+                harmadikhelyek1.Opacity = 1;
+                harmadikhelyek2.Opacity = 1;
+                harmadikhelyek3.Opacity = 1;
                 ujfutam.IsEnabled = true;
                 ujbajnoksag.IsEnabled = true;
             }
@@ -148,6 +172,40 @@ namespace Csigaverseny
             csut3.Opacity = 0;
             start.IsEnabled = true;
             ujfutam.IsEnabled = false;
+        }
+
+        private void Ujbajnoksag(object sender, RoutedEventArgs e)
+        {
+            hely.Opacity = 0;
+            nev.Opacity = 0;
+            pont.Opacity = 0;
+            pontok1.Opacity = 0;
+            pontok2.Opacity = 0;
+            pontok3.Opacity = 0;
+            helyezes1.Opacity = 0;
+            helyezes2.Opacity = 0;
+            helyezes3.Opacity = 0;
+            hely1.Opacity = 0;
+            hely2.Opacity = 0;
+            hely3.Opacity = 0;
+            elsohelyek1.Opacity = 0;
+            elsohelyek2.Opacity = 0;
+            elsohelyek3.Opacity = 0;
+            masodikhelyek1.Opacity = 0;
+            masodikhelyek2.Opacity = 0;
+            masodikhelyek3.Opacity = 0;
+            harmadikhelyek1.Opacity = 0;
+            harmadikhelyek2.Opacity = 0;
+            harmadikhelyek3.Opacity = 0;
+            csiga1.Margin = new Thickness(21, 78, 0, 0);
+            csiga2.Margin = new Thickness(21, 267, 0, 0);
+            csiga3.Margin = new Thickness(21, 452, 0, 0);
+            csut1.Opacity = 0;
+            csut2.Opacity = 0;
+            csut3.Opacity = 0;
+            start.IsEnabled = true;
+            ujfutam.IsEnabled = false;
+            ujbajnoksag.IsEnabled = true;
         }
     }
 }

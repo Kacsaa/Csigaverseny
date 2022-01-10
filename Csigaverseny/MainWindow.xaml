@@ -38,14 +38,14 @@
         <Rectangle Fill="Black" VerticalAlignment="Top" HorizontalAlignment="Left" Height="552" Width="15" Margin="920,50,0,0"></Rectangle>
         <Button Content="Start" Name="start" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="160" Margin="20,10,0,0" Click="Mozgascs"></Button>
         <Button Content="Új futam" Name="ujfutam" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="160" Margin="200,10,0,0" Click="Ujfutam"></Button>
-        <Button Content="Új bajnokság" Name="ujbajnoksag" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="160" Margin="380,10,0,0"></Button>
+        <Button Content="Új bajnokság" Name="ujbajnoksag" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="160" Margin="380,10,0,0" Click="Ujbajnoksag"></Button>
         <Label Content="A bajnokság állása:" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Height="50" Width="260" Margin="20,607,0,0"></Label>
         <Label Content="Hely" Name="hely" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="200,600,0,0"></Label>
         <Label Content="Név" Name="nev" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="300,600,0,0"></Label>
         <Label Content="1." Name="helyezes1" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="400,600,0,0"></Label>
         <Label Content="2." Name="helyezes2" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="500,600,0,0"></Label>
         <Label Content="3." Name="helyezes3" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="600,600,0,0"></Label>
-        <Label Content="Pont" Name="Pont" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="700,600,0,0"></Label>
+        <Label Content="Pont" Name="pont" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="700,600,0,0"></Label>
         <Label Content="1" Name="hely1"  FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="200,650,0,0"></Label>
         <Label Content="2" Name="hely2"  FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="200,700,0,0"></Label>
         <Label Content="3" Name="hely3" FontSize="20" Opacity="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="100" Margin="200,750,0,0"></Label>
