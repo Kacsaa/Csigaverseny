@@ -31,7 +31,7 @@ namespace Csigaverseny
         {
             InitializeComponent();
             idozites = new DispatcherTimer();
-            idozites.Interval = TimeSpan.FromSeconds(0.3);
+            idozites.Interval = TimeSpan.FromSeconds(0.2);
 #pragma warning disable CS8622
             idozites.Tick += new EventHandler(Mozgascs);
 #pragma warning restore CS8622
@@ -43,8 +43,8 @@ namespace Csigaverseny
             idozites.Start();
             start.IsEnabled = false;
             ujbajnoksag.IsEnabled = false;
-            Random rnd = new Random();
-            csigaszam1 += rnd.Next(20, 100);
+            Random rnd1 = new Random();
+            csigaszam1 += rnd1.Next(10, 100);
             csiga1.Margin = new Thickness(csigaszam1,78,0,0);
             if (csigaszam1 > 779)
             {
@@ -52,7 +52,7 @@ namespace Csigaverseny
             }
             
             Random rnd2 = new Random();
-            csigaszam2 += rnd2.Next(20, 100);
+            csigaszam2 += rnd2.Next(10, 100);
             csiga2.Margin = new Thickness(csigaszam2,267,0,0);
             if (csigaszam2 > 779)
             {
@@ -60,7 +60,7 @@ namespace Csigaverseny
             }
             
             Random rnd3 = new Random();
-            csigaszam3 += rnd3.Next(20, 100);
+            csigaszam3 += rnd3.Next(10, 100);
             csiga3.Margin = new Thickness(csigaszam3,452,0,0);
             if (csigaszam3 > 810)
             {
@@ -73,14 +73,58 @@ namespace Csigaverseny
                 csut1.Fill = Brushes.Yellow;
                 if (csiga2.Margin == new Thickness(722,267,0,0) && csiga3.Margin != new Thickness(810,452,0,0))
                 {
-
+                    csut2.Opacity = 1;
+                    csut2.Fill = Brushes.Gray;
+                    csut3.Opacity = 1;
+                    csut3.Fill = Brushes.Orange;
+                }
+                else if (csiga3.Margin == new Thickness(810,452,0,0) && csiga2.Margin != new Thickness(779,267,0,0))
+                {
+                    csut3.Opacity = 1;
+                    csut3.Fill = Brushes.Gray;
+                    csut2.Opacity = 1;
+                    csut2.Fill = Brushes.Orange;
                 }
             }
 
-            else if (csiga2.Margin != new Thickness(779,267,0,0)  && csiga1.Margin == new Thickness(779,78,0,0) && csiga3.Margin != new Thickness(810,452,0,0))
+            else if (csiga2.Margin == new Thickness(779,267,0,0)  && csiga1.Margin != new Thickness(779,78,0,0) && csiga3.Margin != new Thickness(810,452,0,0))
             {
                 csut2.Opacity = 1;
-                csut2.Fill = Brushes.Gray;
+                csut2.Fill = Brushes.Yellow;
+                if (csiga1.Margin == new Thickness(779,78,0,0) && csiga3.Margin != new Thickness(810,452,0,0))
+                {
+                    csut1.Opacity = 1;
+                    csut1.Fill = Brushes.Gray;
+                    csut3.Opacity = 1;
+                    csut3.Fill = Brushes.Orange;
+                }
+                else if (csiga3.Margin == new Thickness(810,452,0,0) && csiga1.Margin != new Thickness(779,78,0,0))
+                {
+                    csut3.Opacity = 1;
+                    csut3.Fill = Brushes.Gray;
+                    csut1.Opacity = 1;
+                    csut1.Fill = Brushes.Orange;
+                }
+            }
+
+            else if (csiga3.Margin == new Thickness(810,452,0,0) && csiga1.Margin != new Thickness(779,78,0,0) && csiga2.Margin != new Thickness(779,267,0,0))
+            {
+                csut3.Opacity = 1;
+                csut3.Fill = Brushes.Yellow;
+                if (csiga1.Margin == new Thickness(779,78,0,0) && csiga2.Margin != new Thickness(779,267,0,0))
+                {
+                    csut1.Opacity = 1;
+                    csut1.Fill = Brushes.Gray;
+                    csut2.Opacity = 1;
+                    csut2.Fill = Brushes.Orange;
+                }
+                else if (csiga2.Margin == new Thickness(779,267,0,0) && csiga1.Margin != new Thickness(779,78,0,0))
+                {
+                    csut2.Opacity = 1;
+                    csut2.Fill = Brushes.Gray;
+                    csut1.Opacity = 1;
+                    csut1.Fill = Brushes.Orange;
+                }
             }
 
             if (csiga1.Margin == new Thickness(779,78,0,0) && csiga2.Margin == new Thickness(779,267,0,0) && csiga3.Margin == new Thickness(810,452,0,0))
@@ -96,6 +140,12 @@ namespace Csigaverseny
             csiga1.Margin = new Thickness(21,78,0,0);
             csiga2.Margin = new Thickness(21,267,0,0);
             csiga3.Margin = new Thickness(21,452,0,0);
+            csigaszam1 = 21;
+            csigaszam2 = 21;
+            csigaszam3 = 21;
+            csut1.Opacity = 0;
+            csut2.Opacity = 0;
+            csut3.Opacity = 0;
             start.IsEnabled = true;
             ujfutam.IsEnabled = false;
         }
